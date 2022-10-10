@@ -21,6 +21,8 @@ const addTodo = () => {
     done: false,
     createdAt: new Date().getTime()
   })
+  input_category.value = null
+  input_content.value = ''
 }
 
 const removeTodo = todo => {
